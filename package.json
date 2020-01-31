@@ -1,0 +1,37 @@
+{
+    "name": "boltin-api",
+    "version": "0.1.0",
+    "description": "LN Invoice shortener",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "dev": "NODE_ENV=development npm run build",
+        "format": "prettier --write '**/*.{ts,js,css,json,md}'",
+        "test": "jest",
+        "transpile": "tsc --project ./test"
+    },
+    "author": "bsat <8377116+BSathvik@users.noreply.github.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@cloudflare/workers-types": "^1.0.1",
+        "@types/isomorphic-fetch": "0.0.35",
+        "@types/jest": "^25.1.1",
+        "isomorphic-fetch": "^2.2.1",
+        "isomorphic-webcrypto": "^2.3.4",
+        "jest": "^25.1.0",
+        "prettier": "^1.18.2",
+        "rimraf": "^3.0.0",
+        "service-worker-mock": "^2.0.3",
+        "source-map-loader": "^0.2.4",
+        "source-map-support": "^0.5.12",
+        "ts-jest": "^25.1.0",
+        "ts-loader": "^6.0.4",
+        "ts-mock-imports": "^1.2.6",
+        "typescript": "^3.5.3",
+        "webpack": "^4.35.3",
+        "webpack-cli": "^3.3.6"
+    },
+    "dependencies": {
+        "bolt11": "^1.2.7"
+    }
+}

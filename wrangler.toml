@@ -1,0 +1,10 @@
+name = "boltin-api"
+type = "webpack"
+account_id = "xxxx"
+zone_id = "xxxx"
+workers_dev = true
+webpack_config = "webpack.config.js"
+
+kv-namespaces = [
+    {binding = "INVOICES", id = "xxxx"}
+]
